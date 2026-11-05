@@ -1,28 +1,28 @@
-# La Biblioteca de los Mundos
+# La Biblioteca de los Mundos · versión mágica
 
-Web estática de Lengua Castellana y Literatura para 2.º ESO (curso 2026–2027).
+Web educativa para Lengua Castellana y Literatura de 2.º ESO. Contiene cuatro mundos, fichas de recursos con buscador y un cuestionario interactivo.
 
-## Archivos
-- `index.html`: estructura y contenido de la página.
-- `styles.css`: diseño, colores y adaptación a móviles.
-- `script.js`: situaciones de aprendizaje, recursos, buscador y cuestionario.
+## Actualizar tu GitHub Pages
 
-## Publicar en GitHub Pages
-1. Crea un repositorio público en GitHub, por ejemplo `biblioteca-de-los-mundos`.
-2. Sube los tres archivos a la raíz del repositorio (no subas la carpeta contenedora).
-3. En el repositorio, entra en **Settings → Pages**.
-4. En **Build and deployment**, selecciona **Deploy from a branch**.
-5. Selecciona la rama `main` y la carpeta `/ (root)`, y guarda.
-6. Cuando termine la publicación, abre `https://TU-USUARIO.github.io/biblioteca-de-los-mundos/`.
+1. Descomprime este ZIP.
+2. En tu repositorio `biblioteca-de-los-mundos`, sustituye los archivos `index.html`, `styles.css` y `script.js` por los nuevos.
+3. Sube también la carpeta `assets` con sus cinco imágenes (es imprescindible para ver las ilustraciones).
+4. Confirma los cambios (`Commit changes`). GitHub Pages actualizará la web automáticamente en unos minutos.
 
-## Personalizar
-- Cambia el nombre o la presentación en `index.html`.
-- Cambia los colores en las variables `:root` de `styles.css`.
-- Añade situaciones, recursos y preguntas en los arrays `worlds`, `resources` y `questions` de `script.js`.
-- El buscador funciona sobre los recursos incluidos en `script.js`.
+**Importante:** los archivos deben quedar en la raíz del repositorio (y las imágenes dentro de `assets/`), sin una carpeta contenedora adicional.
 
-## Privacidad y funcionamiento
-No hay cuentas, notas ni seguimiento individual. El cuestionario se corrige en el navegador y no transmite respuestas a un servidor. Se usan fuentes de Google Fonts, por lo que el navegador puede solicitar esos archivos a Google. Sin conexión a Internet se utilizan fuentes alternativas del sistema.
+Para probar la web antes de subirla, abre `index.html` en tu navegador.
 
-## Nota didáctica
-Los contenidos y preguntas iniciales son una muestra editable; revisa y adapta cada recurso a los apuntes y criterios de tu grupo antes de usarlo en evaluación.
+Los textos y ejercicios iniciales son ejemplos editables, no materiales de evaluación definitivos. Puedes modificar los datos de `worlds`, `resources` y `questions` dentro de `script.js`.
+
+Las ilustraciones proceden de una propuesta visual creada específicamente para este proyecto.
+
+
+## Versión 4: los nueve portales ilustrados
+Se han añadido `assets/portal-5.webp` a `assets/portal-9.webp`, manteniendo los cuatro anteriores. Las SA5–SA9 se muestran como «Próximamente» hasta incorporar sus contenidos. El apartado «Mi historia, mis palabras» permanece listo para añadir propuestas y fechas.
+
+Para actualizar GitHub, sube todos los archivos de esta carpeta (incluida `assets`) al repositorio y confirma los cambios.
+
+
+## Versión 5 — Ajuste visual
+Los nueve portales se han recortado a partir de la misma ilustración aprobada, con una proporción uniforme y sin textos incrustados. Sustituye los archivos de la versión anterior, incluida la carpeta `assets`.
