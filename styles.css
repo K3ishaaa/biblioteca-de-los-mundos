@@ -34,3 +34,17 @@
 .world-card h3{font-size:clamp(20px,2vw,25px)}
 @media(max-width:650px){.world-grid{grid-template-columns:1fr 1fr}.world-body{padding:12px 9px 16px}.world-card h3{font-size:17px}.world-visual{aspect-ratio:900/440}}
 @media(max-width:400px){.world-grid{grid-template-columns:1fr}.world-visual{aspect-ratio:900/396}}
+
+/* Propuesta V6: Ariadna y autobiografía en portada */
+.ariadna-section{background:linear-gradient(120deg,#f9eefe,#fff7e9);padding:55px 0;scroll-margin-top:85px}
+.ariadna-layout{display:grid;grid-template-columns:minmax(210px,330px) 1fr;gap:45px;align-items:center}
+.ariadna-portrait{background:#f0dfc5;border:7px solid #fff;border-radius:175px 175px 24px 24px;overflow:hidden;box-shadow:0 14px 32px #533e6329;max-height:430px}
+.ariadna-portrait img{display:block;width:100%;height:100%;max-height:430px;object-fit:cover;object-position:center 20%}
+.ariadna-message h2,.diary-feature h2{font:700 clamp(30px,4vw,44px)/1.16 'Playfair Display',Georgia,serif;color:#51346e;margin:12px 0}
+.ariadna-message p,.diary-feature p{font-size:18px;line-height:1.7;max-width:650px}
+.ariadna-quote{font-family:'Playfair Display',Georgia,serif;font-style:italic;color:#865b92;font-size:22px!important}
+.diary-feature{padding:42px 0;background:linear-gradient(110deg,#e7d7fa,#fbe4e5 55%,#fff0cb);border-top:3px solid #fff8ec;border-bottom:3px solid #e3c7a3;scroll-margin-top:85px}
+.diary-feature-inner{display:grid;grid-template-columns:155px 1fr;gap:35px;align-items:center}
+.diary-feature-icon{height:155px;border-radius:50%;background:#fff9f1;border:4px solid #d8b9e8;display:flex;align-items:center;justify-content:center;font-size:56px;box-shadow:0 7px 20px #51346e22}
+.diary-feature-button{background:#a2517b;color:white;box-shadow:0 5px 0 #753858}
+@media(max-width:650px){.ariadna-layout{grid-template-columns:1fr;gap:20px}.ariadna-portrait{width:min(250px,75%);margin:auto;max-height:320px}.ariadna-portrait img{max-height:320px}.ariadna-section{padding:35px 0}.diary-feature-inner{grid-template-columns:1fr;gap:15px}.diary-feature-icon{width:110px;height:110px;font-size:42px}.ariadna-message p,.diary-feature p{font-size:16px}}

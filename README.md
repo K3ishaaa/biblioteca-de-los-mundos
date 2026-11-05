@@ -1,28 +1,15 @@
-# La Biblioteca de los Mundos · versión mágica
+# La Biblioteca de los Mundos · V9
 
-Web educativa para Lengua Castellana y Literatura de 2.º ESO. Contiene cuatro mundos, fichas de recursos con buscador y un cuestionario interactivo.
+Abre `index.html` para probar la web en tu navegador.
 
-## Actualizar tu GitHub Pages
+- Nueva portada general con el gran libro mágico y Ariadna.
+- Cuatro ilustraciones de curso recortadas individualmente de la propuesta aprobada.
+- Eliminadas las etiquetas «6 SA · 3 lecturas · 1 libreta» de las tarjetas de portada.
+- 2.º ESO: numeración correlativa SA1–SA6; los portales 3, 6 y 9 son proyectos de lectura.
+- Se conservan la SA1 interactiva, los nueve portales y las cuatro libretas de textos.
+- Los apartados pendientes son estructuras de ejemplo, no programaciones definitivas.
 
-1. Descomprime este ZIP.
-2. En tu repositorio `biblioteca-de-los-mundos`, sustituye los archivos `index.html`, `styles.css` y `script.js` por los nuevos.
-3. Sube también la carpeta `assets` con sus cinco imágenes (es imprescindible para ver las ilustraciones).
-4. Confirma los cambios (`Commit changes`). GitHub Pages actualizará la web automáticamente en unos minutos.
-
-**Importante:** los archivos deben quedar en la raíz del repositorio (y las imágenes dentro de `assets/`), sin una carpeta contenedora adicional.
-
-Para probar la web antes de subirla, abre `index.html` en tu navegador.
-
-Los textos y ejercicios iniciales son ejemplos editables, no materiales de evaluación definitivos. Puedes modificar los datos de `worlds`, `resources` y `questions` dentro de `script.js`.
-
-Las ilustraciones proceden de una propuesta visual creada específicamente para este proyecto.
+Para GitHub Pages, sube **todos** los archivos y la carpeta `assets` a la raíz del repositorio.
 
 
-## Versión 4: los nueve portales ilustrados
-Se han añadido `assets/portal-5.webp` a `assets/portal-9.webp`, manteniendo los cuatro anteriores. Las SA5–SA9 se muestran como «Próximamente» hasta incorporar sus contenidos. El apartado «Mi historia, mis palabras» permanece listo para añadir propuestas y fechas.
-
-Para actualizar GitHub, sube todos los archivos de esta carpeta (incluida `assets`) al repositorio y confirma los cambios.
-
-
-## Versión 5 — Ajuste visual
-Los nueve portales se han recortado a partir de la misma ilustración aprobada, con una proporción uniforme y sin textos incrustados. Sustituye los archivos de la versión anterior, incluida la carpeta `assets`.
+V10 SA1: cuatro bloques de materiales originales incorporados en sa1.html; PDF descargables de Comunicación y Ortografía; láminas de Literatura y Reflexión sobre la lengua. Se conservan los juegos de muestra.
