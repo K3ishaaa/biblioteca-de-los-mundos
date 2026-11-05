@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#263d3a">
+  <meta name="description" content="La Biblioteca de los Mundos: recursos interactivos de Lengua Castellana y Literatura para 2.º ESO.">
+  <title>La Biblioteca de los Mundos · 2.º ESO</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+  <header class="site-header">
+    <div class="shell nav-wrap">
+      <a href="#inicio" class="brand" aria-label="Ir al inicio"><span class="brand-icon" aria-hidden="true">✦</span><span>La Biblioteca <small>de los Mundos</small></span></a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Abrir menú">☰</button>
+      <nav id="nav-links" aria-label="Navegación principal"><a href="#situaciones">Situaciones</a><a href="#recursos">Recursos</a><a href="#retos">Retos</a><a href="#acerca">Sobre la web</a></nav>
+    </div>
+  </header>
+  <main id="contenido">
+    <section class="hero" id="inicio">
+      <div class="shell hero-grid">
+        <div class="hero-copy"><span class="eyebrow">LENGUA CASTELLANA Y LITERATURA · 2.º ESO</span><h1>Cada palabra abre <em>un mundo.</em></h1><p>Un espacio para explorar historias, descubrir la lengua y aprender a tu ritmo. Abre un libro. Elige una puerta. Empieza tu aventura.</p><div class="hero-actions"><a class="btn btn-primary" href="#situaciones">Explorar los mundos <span aria-hidden="true">↗</span></a><a class="btn btn-light" href="#retos">Probar un reto</a></div><div class="hero-meta"><span>✧ 4 mundos por descubrir</span><span>✧ Aprende jugando</span></div></div>
+        <div class="hero-art" role="img" aria-label="Ilustración decorativa de una biblioteca con libros y una puerta luminosa"><div class="art-arch"><div class="art-stars">✦ &nbsp; · &nbsp; ✧</div><div class="art-door"><div class="door-glow"></div><span class="door-knob"></span></div><div class="art-shelf shelf-one"><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="art-shelf shelf-two"><i></i><i></i><i></i><i></i><i></i><i></i></div><span class="art-book">✧</span></div><span class="art-caption">«Los libros son puertas a otros mundos»</span></div>
+      </div>
+    </section>
+    <section class="section shell" id="situaciones"><div class="section-heading"><div><span class="eyebrow dark">TU ITINERARIO</span><h2>Elige tu próximo mundo</h2><p>Cuatro situaciones de aprendizaje, infinitas maneras de descubrir.</p></div><span class="heading-decoration" aria-hidden="true">✦</span></div><div class="world-grid" id="world-grid"></div></section>
+    <section class="section section-cream" id="recursos"><div class="shell"><div class="section-heading"><div><span class="eyebrow dark">TU RINCÓN DE ESTUDIO</span><h2>La estantería de recursos</h2><p>Busca contenidos y consulta pequeñas guías de repaso.</p></div></div><label class="search-label" for="resource-search">Buscar un recurso</label><div class="search-wrap"><span aria-hidden="true">⌕</span><input type="search" id="resource-search" placeholder="Prueba: sintagmas, lírica, ortografía…" autocomplete="off"></div><div class="filter-row" role="group" aria-label="Filtrar recursos"><button class="chip active" data-filter="todos" aria-pressed="true">Todos</button><button class="chip" data-filter="Lengua" aria-pressed="false">Lengua</button><button class="chip" data-filter="Literatura" aria-pressed="false">Literatura</button><button class="chip" data-filter="Lectura" aria-pressed="false">Lectura</button></div><div class="resource-grid" id="resource-grid"></div><p id="empty-results" class="empty-results" hidden>No encontramos recursos con esa búsqueda. Prueba otra palabra.</p></div></section>
+    <section class="section shell" id="retos"><div class="challenge-layout"><div><span class="eyebrow dark">PONTE A PRUEBA</span><h2>El desafío de la biblioteca</h2><p>Un pequeño cuestionario para entrenar tus conocimientos. Las respuestas se corrigen al instante.</p><div class="challenge-note">✦ Tu resultado solo se muestra en este dispositivo. No se envía a ningún servidor.</div></div><div class="quiz-card"><div class="quiz-top"><span class="quiz-label">MINIRRETO · 2.º ESO</span><span id="quiz-progress">Pregunta 1 de 5</span></div><div id="quiz-content" aria-live="polite"></div></div></div></section>
+    <section class="about" id="acerca"><div class="shell about-inner"><span class="about-symbol" aria-hidden="true">✧</span><div><span class="eyebrow">UN ESPACIO PARA APRENDER</span><h2>Las mejores historias empiezan con una pregunta.</h2><p>Esta biblioteca digital reúne materiales y actividades de Lengua Castellana y Literatura de 2.º ESO. Crecerá con nuevos recursos a lo largo del curso.</p></div></div></section>
+  </main>
+  <footer class="footer"><div class="shell footer-inner"><span>✦ La Biblioteca de los Mundos</span><span>Lengua Castellana y Literatura · Curso 2026–2027</span><a href="#inicio">Volver arriba ↑</a></div></footer>
+  <dialog id="detail-dialog" aria-labelledby="detail-title"><div class="dialog-inner"><button class="dialog-close" id="close-dialog" aria-label="Cerrar">×</button><span class="eyebrow dark" id="detail-tag"></span><h2 id="detail-title"></h2><div id="detail-body"></div></div></dialog>
+</body>
+</html>
